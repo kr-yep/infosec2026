@@ -1,0 +1,3 @@
+hw2/input/* -text
+hw2/output/ascii-art.txt -text
+*.png binary

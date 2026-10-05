@@ -1,0 +1,16 @@
+# off=0 ctb=a3 tag=8 hlen=1 plen=0 indeterminate
+:compressed packet: algo=1
+# off=2 ctb=90 tag=4 hlen=2 plen=13
+:onepass_sig packet: keyid 0805311CD398A20A
+	version 3, sigclass 0x00, digest 2, pubkey 1, last=1
+# off=17 ctb=ad tag=11 hlen=3 plen=4955
+:literal data packet:
+	mode b (62), created 1619348945, name="ascii-art",
+	raw data: 4940 bytes
+# off=4975 ctb=89 tag=2 hlen=3 plen=284
+:signature packet: algo 1, keyid 0805311CD398A20A
+	version 4, created 1619348945, md5len 0, sigclass 0x00
+	digest algo 2, begin of digest 08 ea
+	hashed subpkt 2 len 4 (sig created 2021-04-25)
+	subpkt 16 len 8 (issuer key ID 0805311CD398A20A)
+	data: [2047 bits]
