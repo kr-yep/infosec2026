@@ -1,0 +1,22 @@
+# Local instructions and supporting files
+/AGENTS.md
+/.local/
+/hw2/input/
+/hw2/output/gpg-packets.txt
+/hw2/output/gpg-status.txt
+/hw2/render-output.ps1
+
+# Local credentials and keyrings
+.env
+.env.*
+!.env.example
+**/.gnupg/
+**/private-keys-v1.d/
+*.kbx
+trustdb.gpg
+secret.key
+private.key
+
+# Operating system metadata
+.DS_Store
+Thumbs.db
