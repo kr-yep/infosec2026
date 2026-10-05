@@ -29,8 +29,8 @@ HW2 位於 [Cryptography & Information Security 101](https://hackmd.io/NkCXD6syQ
 | GitHub 作業頁 | [公開作業頁](https://github.com/kr-yep/infosec2026/blob/main/security-news.md) |
 | 新聞紀錄 | 1 則初稿，已核對官方公告，待本人閱讀確認 |
 | 全學期至少 15 則 | 尚缺 14 則，須持續每週更新 |
-| 寄送網址給老師 | 尚未寄送 |
-| HW2 | 已完成簽章驗證與輸出展示，詳見 [HW2 作業頁](hw2/README.md)，尚未寄信繳交 |
+| HW1 寄送網址給老師 | 尚未確認寄送 |
+| HW2 | 已於 2026-10-05 繳交（本人確認），詳見 [HW2 作業頁](hw2/README.md) |
 
 本次建立的第一則紀錄日期為 2026-10-05。沒有既有繳交紀錄可供核對，因此不將本次內容算作先前各週已完成；如需補交開學以來的週次，應依老師規定處理。
 
@@ -40,4 +40,4 @@ HW2 位於 [Cryptography & Information Security 101](https://hackmd.io/NkCXD6syQ
 
 HW1 已建立獨立維護對話與每週一 12:00（Asia/Taipei）的更新排程，沿用同一份新聞頁；本週已有紀錄時不重複新增。排程會在新增發布完成、失敗或需要處理時通知。
 
-下一步：閱讀並寄送作業頁網址；HW1 持續每週更新，累積全學期至少 15 則。
+下一步：HW1 持續每週更新，累積全學期至少 15 則；HW2 等待老師回饋。

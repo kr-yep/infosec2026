@@ -61,4 +61,4 @@ Primary key fingerprint: CD5E FDA4 EC66 9CDD 8F5A 7142 0805 311C D398 A20A
 | `input/public-key.key` | `9dab5dbba5e5125569c65cafd5dacdf54e4ade4ead4e5555518009b4c628d79a` |
 | `output/ascii-art.txt` | `ba7e93371038750457a9941a0ea36d4dca98a3cd04fa019ea4eff2aa93835ad1` |
 
-簽章中的 2021-04-25 是原始簽署日期；本次作業執行日期是 2026-10-05。此頁完成檔案處理與結果展示，尚未寄信繳交。
+簽章中的 2021-04-25 是原始簽署日期；本次作業執行日期是 2026-10-05。已於 2026-10-05 繳交，由本人確認。
