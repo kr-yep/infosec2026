@@ -1,0 +1,59 @@
+HW3 verification - 2026-10-06
+GnuPG 2.4.9; fresh public-key-only keyring; trust settings unchanged.
+
+File: dp.src1.asc
+Command: gpg --verify input/dp.src1.asc
+Exit code: 0
+gpg: Signature made Mon Oct  5 17:33:07 2026    
+gpg:                using EDDSA key 36CE32B4A421ABE02C4FAEB1E62104E933959011
+gpg:                issuer "cnchen@pu.edu.tw"
+gpg: Good signature from "cnchen <cnchen@pu.edu.tw>" [unknown]
+gpg: WARNING: The key's User ID is not certified with a trusted signature!
+gpg:          There is no indication that the signature belongs to the owner.
+Primary key fingerprint: 36CE 32B4 A421 ABE0 2C4F  AEB1 E621 04E9 3395 9011
+[GNUPG:] NEWSIG cnchen@pu.edu.tw
+[GNUPG:] KEY_CONSIDERED 36CE32B4A421ABE02C4FAEB1E62104E933959011 0
+[GNUPG:] SIG_ID PvcbmbFcUi44nxIxH5dgu31BI58 2026-10-05 1791192787
+[GNUPG:] GOODSIG E62104E933959011 cnchen <cnchen@pu.edu.tw>
+[GNUPG:] VALIDSIG 36CE32B4A421ABE02C4FAEB1E62104E933959011 2026-10-05 1791192787 0 4 0 22 10 01 36CE32B4A421ABE02C4FAEB1E62104E933959011
+[GNUPG:] TRUST_UNDEFINED 0 pgp cnchen@pu.edu.tw
+
+File: dp.src2.asc
+Command: gpg --verify input/dp.src2.asc
+Exit code: 1
+gpg: Signature made Mon Oct  5 17:33:07 2026    
+gpg:                using EDDSA key 36CE32B4A421ABE02C4FAEB1E62104E933959011
+gpg:                issuer "cnchen@pu.edu.tw"
+gpg: BAD signature from "cnchen <cnchen@pu.edu.tw>" [unknown]
+[GNUPG:] NEWSIG cnchen@pu.edu.tw
+[GNUPG:] KEY_CONSIDERED 36CE32B4A421ABE02C4FAEB1E62104E933959011 0
+[GNUPG:] BADSIG E62104E933959011 cnchen <cnchen@pu.edu.tw>
+[GNUPG:] FAILURE gpg-exit 33554433
+
+File: dp.src1.sig
+Command: gpg --verify input/dp.src1.sig output/dp.txt
+Exit code: 2
+gpg: CRC error; C6D14A - F19401
+gpg: no signature found
+gpg: the signature could not be verified.
+Please remember that the signature file (.sig or .asc)
+should be the first file given on the command line.
+[GNUPG:] NODATA 4
+[GNUPG:] FAILURE gpg-exit 33554433
+
+File: dp.src2.sig
+Command: gpg --verify input/dp.src2.sig output/dp.txt
+Exit code: 0
+gpg: Signature made Mon Oct  5 17:40:11 2026    
+gpg:                using EDDSA key 36CE32B4A421ABE02C4FAEB1E62104E933959011
+gpg:                issuer "cnchen@pu.edu.tw"
+gpg: Good signature from "cnchen <cnchen@pu.edu.tw>" [unknown]
+gpg: WARNING: The key's User ID is not certified with a trusted signature!
+gpg:          There is no indication that the signature belongs to the owner.
+Primary key fingerprint: 36CE 32B4 A421 ABE0 2C4F  AEB1 E621 04E9 3395 9011
+[GNUPG:] NEWSIG cnchen@pu.edu.tw
+[GNUPG:] KEY_CONSIDERED 36CE32B4A421ABE02C4FAEB1E62104E933959011 0
+[GNUPG:] SIG_ID kWNsnYvMKgNIr8CoCTymkCJnjEk 2026-10-05 1791193211
+[GNUPG:] GOODSIG E62104E933959011 cnchen <cnchen@pu.edu.tw>
+[GNUPG:] VALIDSIG 36CE32B4A421ABE02C4FAEB1E62104E933959011 2026-10-05 1791193211 0 4 0 22 10 00 36CE32B4A421ABE02C4FAEB1E62104E933959011
+[GNUPG:] TRUST_UNDEFINED 0 pgp cnchen@pu.edu.tw

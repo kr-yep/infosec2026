@@ -5,6 +5,7 @@
 /hw2/output/gpg-packets.txt
 /hw2/output/gpg-status.txt
 /hw2/render-output.ps1
+/hw3/input/
 
 # Local credentials and keyrings
 .env

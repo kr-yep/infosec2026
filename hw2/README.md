@@ -1,8 +1,14 @@
 # HW2 GPG 簽章驗證與檔案輸出
 
-完成與繳交日期：2026-10-05。
+題目來源：[Cryptography & Information Security 101](https://hackmd.io/NkCXD6syQmCrmFWMiEsaHg#HW2LAB-Decrypt-the-signed-file)的 HW2/LAB。
+
+進度：已完成，2026-10-05 繳交。
+
+## 題目與要求
 
 這份作業依照[課程講義](https://hackmd.io/NkCXD6syQmCrmFWMiEsaHg)中的「HW2/LAB: Decrypt the signed file」，使用老師提供的公開金鑰驗證 `ascii-art.gpg`，並取出裡面的 ASCII 字元圖。
+
+[返回作業總覽與繳交方式](../README.md)
 
 ## 操作步驟
 
@@ -53,7 +59,9 @@ Primary key fingerprint: CD5E FDA4 EC66 9CDD 8F5A 7142 0805 311C D398 A20A
 - [完整輸出文字](output/ascii-art.txt)
 - [GPG 驗證訊息與信任警告](output/gpg-verification.txt)
 
-## 簽章與加密的差別
+## 學習觀察
+
+### 簽章與加密的差別
 
 題目使用 decrypt 一詞，指令也用了 `--decrypt`。檢查檔案後，可以看到壓縮、one-pass signature、literal data 與 signature 封包，沒有加密資料封包。因此，這次操作是取出帶有簽章的內容並驗證簽章，不需要私鑰或密碼。公開金鑰在這裡用來驗證簽章，不能用這個結果推論它能解開一般的機密密文。[GnuPG 手冊](https://www.gnupg.org/gph/en/manual.html)的 Making and verifying signatures 一節也有說明這種用法。
 

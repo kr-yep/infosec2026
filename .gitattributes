@@ -1,3 +1,5 @@
 hw2/input/* -text
 hw2/output/ascii-art.txt -text
 *.png binary
+/hw3/output/dp.txt -text
+/hw3/output/verification.txt -text
