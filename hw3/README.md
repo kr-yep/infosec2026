@@ -2,7 +2,7 @@
 
 題目來源：[More GPG examples](https://hackmd.io/b5RNk-hgSwq7NKmQwD80vg)在 2026-10-06 公布的 HW3/LAB 版本。
 
-進度：已於 2026-10-06 完成，尚未繳交。
+進度：2026-10-06 完成，已於 2026-10-18 寄送。
 
 版本說明：2026-10-18 再次查看時，原頁底部已改為一般 LAB 的加密、簽署與驗證練習。本頁保留 10/6 原題與當時結果，目前版本的練習另見 [GPG Lab](../labs/gpg-sign-encrypt/README.md)。
 

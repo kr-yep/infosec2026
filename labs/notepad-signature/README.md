@@ -2,7 +2,7 @@
 
 題目來源：[Software Signature and Certificate Example - Notepad++](https://hackmd.io/WkND2kC1Sz-fJ9lHR87lEQ)。
 
-進度：2026-10-18 完成 GPG、SHA-256、內嵌簽章，以及 Windows 虛擬機內的憑證匯入、驗證與移除，尚未寄送。講義目前沒有標上作業編號。
+進度：2026-10-18 完成 GPG、SHA-256、內嵌簽章，以及 Windows 虛擬機內的憑證匯入、驗證與移除，已於同日寄送。講義目前沒有標上作業編號。
 
 ## 題目與要求
 
