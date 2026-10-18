@@ -1,0 +1,17 @@
+﻿{
+    "stage":  "after-removal",
+    "current_user":  "lab",
+    "time":  "2026-10-18T19:15:19.6337514+08:00",
+    "vm_computer":  "CERTLAB",
+    "manufacturer":  "innotek GmbH",
+    "model":  "VirtualBox",
+    "os":  "Microsoft Windows Server 2022 Standard Evaluation",
+    "current_user_root":  false,
+    "local_machine_root":  false,
+    "signature_status":  "UnknownError",
+    "signature_message":  "A certificate chain could not be built to a trusted root authority",
+    "signer_thumbprint":  "7F517E235584AFC146F6D3B44CD34C6CC36A3AB2",
+    "root_thumbprint":  "C80539FF7076D22E73A01F164108DAFBF06E45E4",
+    "file_version":  "8.8.3",
+    "exe_sha256":  "3c729c08da054834a6f7c6287539670d5a4b64a37017b03536d5e2ea57390fe7"
+}

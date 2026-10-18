@@ -1,0 +1,77 @@
+[
+  {
+    "file": "01-root-before-import.png",
+    "sha256": "6001645c24ddda7bd6f1ef5d8fbdaffcf1307f2289a9d0a157a55804443d0921",
+    "bytes": 137779
+  },
+  {
+    "file": "02-signer-before-import.png",
+    "sha256": "af88572eabd3484bd19ab7ae731677a7a957fa67efed1c83d393a7a08d63251c",
+    "bytes": 136773
+  },
+  {
+    "file": "03-import-current-user.png",
+    "sha256": "61f71a45e3efb78ed3833d56e4225d5638824643d8cd2b8f622c92c4300e8071",
+    "bytes": 115143
+  },
+  {
+    "file": "04-import-root-store.png",
+    "sha256": "a940a44ed5bc1a2852d3193528f5505f584ce257fe3ec507a5e75257d2e280b6",
+    "bytes": 114164
+  },
+  {
+    "file": "05-root-import-warning.png",
+    "sha256": "a714f29d0d24e995f23c6aab872aa6d552643e80e2d612784542dd91f72a3225",
+    "bytes": 116768
+  },
+  {
+    "file": "06-import-success.png",
+    "sha256": "2784c8ffde3377e78edf866872941eed032b22587cd4229cd930efff306295c7",
+    "bytes": 135576
+  },
+  {
+    "file": "07-signer-after-import.png",
+    "sha256": "318c6de096e37fde3f316f0b37228319808eb7b3c6eed495d6a37beb430272f5",
+    "bytes": 137206
+  },
+  {
+    "file": "08-chain-valid.png",
+    "sha256": "08536636eebe431488cb6fbb8294b8dba22779e1b8d6370c825682575d0d3342",
+    "bytes": 131032
+  },
+  {
+    "file": "09-root-in-certmgr.png",
+    "sha256": "144b02a66b91daf981fe6ba43f3dedaae7d826aff7e16366dff7a4feaee0ba26",
+    "bytes": 126551
+  },
+  {
+    "file": "10-remove-confirmation.png",
+    "sha256": "d47035df2064ab7e4ddf25e409e67a19535ef2691e04c2aff71203a2c52d035c",
+    "bytes": 120894
+  },
+  {
+    "file": "11-remove-fingerprint.png",
+    "sha256": "f0118608f64fb554802d5e796f69abe0c9004cd06b3d782d4c35d6c619486274",
+    "bytes": 121442
+  },
+  {
+    "file": "12-root-removed.png",
+    "sha256": "80dee4c10bc15d423d234187e2cf4cee8c7af6a1785295a5c65af6c6d608ef84",
+    "bytes": 124828
+  },
+  {
+    "file": "13-signer-after-removal.png",
+    "sha256": "59cedb8d8c7c7350644207e4cee2e261ca5035f31507b3127433387fd42f4e19",
+    "bytes": 136611
+  },
+  {
+    "file": "14-file-digital-signatures.png",
+    "sha256": "e4488c3b7830f7d39d3312e24b0a9da9088709409c2c2da8d6e624601f8d0716",
+    "bytes": 52778
+  },
+  {
+    "file": "15-signature-details-after-removal.png",
+    "sha256": "8a36c017b26a16c897181df20c1bedac322f14c1f96a60f3ee70f93037e7bc0e",
+    "bytes": 60618
+  }
+]

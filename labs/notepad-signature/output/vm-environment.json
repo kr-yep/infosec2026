@@ -1,0 +1,26 @@
+{
+  "record_date": "2026-10-18",
+  "hypervisor": "Oracle VirtualBox 7.2.20r175154",
+  "guest_name": "Infosec-Windows-Certificate-Lab",
+  "guest_os": "Microsoft Windows Server 2022 Standard Evaluation (Desktop Experience)",
+  "guest_source": "https://www.microsoft.com/en-us/evalcenter/download-windows-server-2022",
+  "cpus": 4,
+  "memory_mb": 6144,
+  "network_adapters": [
+    "none",
+    "none",
+    "none",
+    "none",
+    "none",
+    "none",
+    "none",
+    "none"
+  ],
+  "clipboard": "disabled",
+  "drag_and_drop": "disabled",
+  "shared_folders": [],
+  "certificate_scope": "CurrentUser Root",
+  "root_removed_after_test": true,
+  "screenshots": "Original VirtualBox framebuffer PNG captures; no edits",
+  "online_revocation_checked": false
+}
