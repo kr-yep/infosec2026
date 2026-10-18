@@ -1,0 +1,33 @@
+{
+  "gpg_version": "gpg (GnuPG) 2.4.9",
+  "alice_fingerprint": "94CE7DD9500CDADA3D4EE77E89F2687FECD52D69",
+  "bob_fingerprint": "35B8CBA81FAFB852D47AB9F2258DF8D86FC4B631",
+  "original_equals_decrypted": true,
+  "message_sha256": "f5513ae826b9f975c3e31beded9f400c2b90f12e9937fe372c63016e1a3b44c0",
+  "cases": [
+    {
+      "case": "bob_decrypts_and_verifies",
+      "exit_code": 0,
+      "stdout": "[GNUPG:] ENC_TO 8B45D52C79A6B4C9 18 0\n[GNUPG:] KEY_CONSIDERED 35B8CBA81FAFB852D47AB9F2258DF8D86FC4B631 0\n[GNUPG:] KEY_CONSIDERED 35B8CBA81FAFB852D47AB9F2258DF8D86FC4B631 0\n[GNUPG:] KEY_CONSIDERED 35B8CBA81FAFB852D47AB9F2258DF8D86FC4B631 0\n[GNUPG:] DECRYPTION_KEY 3EEBD0A3B5682C74AAC21D008B45D52C79A6B4C9 35B8CBA81FAFB852D47AB9F2258DF8D86FC4B631 u\n[GNUPG:] BEGIN_DECRYPTION\n[GNUPG:] DECRYPTION_INFO 2 9 0\n[GNUPG:] PLAINTEXT 62 1792318310 output\\message.txt\n[GNUPG:] PLAINTEXT_LENGTH 62\n[GNUPG:] NEWSIG\n[GNUPG:] KEY_CONSIDERED 94CE7DD9500CDADA3D4EE77E89F2687FECD52D69 0\n[GNUPG:] SIG_ID /I7jWC1bjApk3PiViPN8nYl9mgI 2026-10-18 1792318310\n[GNUPG:] GOODSIG 89F2687FECD52D69 Alice Lab <alice@example.invalid>\n[GNUPG:] VALIDSIG 94CE7DD9500CDADA3D4EE77E89F2687FECD52D69 2026-10-18 1792318310 0 4 0 22 10 00 94CE7DD9500CDADA3D4EE77E89F2687FECD52D69\n[GNUPG:] TRUST_UNDEFINED 0 pgp\n[GNUPG:] DECRYPTION_OKAY\n[GNUPG:] GOODMDC\n[GNUPG:] END_DECRYPTION\n",
+      "stderr": "gpg: encrypted with cv25519 key, ID 8B45D52C79A6B4C9, created 2026-10-18\n      \"Bob Lab <bob@example.invalid>\"\ngpg: Signature made Sun Oct 18 18:11:50 2026    \ngpg:                using EDDSA key 94CE7DD9500CDADA3D4EE77E89F2687FECD52D69\ngpg: Good signature from \"Alice Lab <alice@example.invalid>\" [unknown]\ngpg: WARNING: This key is not certified with a trusted signature!\ngpg:          There is no indication that the signature belongs to the owner.\nPrimary key fingerprint: 94CE 7DD9 500C DADA 3D4E  E77E 89F2 687F ECD5 2D69\n"
+    },
+    {
+      "case": "public_key_only_cannot_decrypt",
+      "exit_code": 2,
+      "stdout": "[GNUPG:] ENC_TO 8B45D52C79A6B4C9 18 0\n[GNUPG:] NO_SECKEY 8B45D52C79A6B4C9\n[GNUPG:] ERROR pkdecrypt_failed 33554449\n[GNUPG:] BEGIN_DECRYPTION\n[GNUPG:] DECRYPTION_FAILED\n[GNUPG:] END_DECRYPTION\n[GNUPG:] FAILURE gpg-exit 33554433\n",
+      "stderr": "gpg: encrypted with ECDH key, ID 8B45D52C79A6B4C9\ngpg: public key decryption failed: No secret key\ngpg: decryption failed: No secret key\n"
+    },
+    {
+      "case": "detached_signature_valid",
+      "exit_code": 0,
+      "stdout": "[GNUPG:] NEWSIG\n[GNUPG:] KEY_CONSIDERED 94CE7DD9500CDADA3D4EE77E89F2687FECD52D69 0\n[GNUPG:] SIG_ID 0XWYbsMrMjD5YCoxgpBcWF+iDAk 2026-10-18 1792318311\n[GNUPG:] GOODSIG 89F2687FECD52D69 Alice Lab <alice@example.invalid>\n[GNUPG:] VALIDSIG 94CE7DD9500CDADA3D4EE77E89F2687FECD52D69 2026-10-18 1792318311 0 4 0 22 10 00 94CE7DD9500CDADA3D4EE77E89F2687FECD52D69\n[GNUPG:] TRUST_UNDEFINED 0 pgp\n",
+      "stderr": "gpg: Signature made Sun Oct 18 18:11:51 2026    \ngpg:                using EDDSA key 94CE7DD9500CDADA3D4EE77E89F2687FECD52D69\ngpg: Good signature from \"Alice Lab <alice@example.invalid>\" [unknown]\ngpg: WARNING: This key is not certified with a trusted signature!\ngpg:          There is no indication that the signature belongs to the owner.\nPrimary key fingerprint: 94CE 7DD9 500C DADA 3D4E  E77E 89F2 687F ECD5 2D69\n"
+    },
+    {
+      "case": "tampered_message_rejected",
+      "exit_code": 1,
+      "stdout": "[GNUPG:] NEWSIG\n[GNUPG:] KEY_CONSIDERED 94CE7DD9500CDADA3D4EE77E89F2687FECD52D69 0\n[GNUPG:] BADSIG 89F2687FECD52D69 Alice Lab <alice@example.invalid>\n[GNUPG:] FAILURE gpg-exit 33554433\n",
+      "stderr": "gpg: Signature made Sun Oct 18 18:11:51 2026    \ngpg:                using EDDSA key 94CE7DD9500CDADA3D4EE77E89F2687FECD52D69\ngpg: BAD signature from \"Alice Lab <alice@example.invalid>\" [unknown]\n"
+    }
+  ]
+}

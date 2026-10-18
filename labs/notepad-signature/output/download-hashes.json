@@ -1,0 +1,32 @@
+[
+  {
+    "file": "npp.8.8.3.checksums.sha256",
+    "bytes": 1150,
+    "sha256": "24e8ca1c983309026e3c12ff37802973fa3cea9e545a469793573ed263e22dd6"
+  },
+  {
+    "file": "npp.8.8.3.checksums.sha256.sig",
+    "bytes": 566,
+    "sha256": "0163e9b99c9ca6d24a7400f0da79e0116bff0fa53aa6d1768ecfbb3e8afd3044"
+  },
+  {
+    "file": "npp.8.8.3.Installer.x64.exe",
+    "bytes": 6843088,
+    "sha256": "7094a07167648628e47249a16d9d6db922e5aa1255ac4322a2e4900d233372dd"
+  },
+  {
+    "file": "npp.8.8.3.Installer.x64.exe.sig",
+    "bytes": 566,
+    "sha256": "577bcc11b95a7348e6b025618d27df5c52958b8385dadef32046066894a3deac"
+  },
+  {
+    "file": "nppGpgPub.asc",
+    "bytes": 35469,
+    "sha256": "148b1617c918ddf79091bab92778a0e77682c1cd48740e50a10e574c3915dd6f"
+  },
+  {
+    "file": "nppRoot.crt",
+    "bytes": 6380,
+    "sha256": "e133b9302aae0aa7d9f6db63289aeea709fb57346dc702357f9d71b1bd3ffb21"
+  }
+]

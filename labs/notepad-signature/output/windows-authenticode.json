@@ -1,0 +1,7 @@
+{
+  "Status": "UnknownError",
+  "StatusMessage": "憑證鏈結無法建立於受信任的根授權。",
+  "Subject": "E=don.h@free.fr, CN=\"Notepad++\", O=\"Notepad++\", L=Saint Cloud, S=Ile-de-France, C=FR",
+  "Issuer": "E=don.h@free.fr, CN=\"Notepad++ Root Certificate\", O=\"Notepad++\", L=Saint Cloud, S=Ile-de-France, C=FR",
+  "Thumbprint": "7F517E235584AFC146F6D3B44CD34C6CC36A3AB2"
+}

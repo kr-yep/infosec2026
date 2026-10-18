@@ -6,6 +6,8 @@
 /hw2/output/gpg-status.txt
 /hw2/render-output.ps1
 /hw3/input/
+/labs/*/input/
+**/__pycache__/
 
 # Local credentials and keyrings
 .env

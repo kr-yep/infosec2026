@@ -1,0 +1,31 @@
+Notepad++ 8.8.3 - GPG verification, recorded 2026-10-18
+
+File: npp.8.8.3.Installer.x64.exe
+Exit code: 0
+gpg: Signature made Wed Jul  9 22:39:43 2025    
+gpg:                using RSA key 14BCE4362749B2B51F8C71226C429F1D8D84F46E
+gpg: Good signature from "Notepad++ <don.h@free.fr>" [unknown]
+gpg: WARNING: This key is not certified with a trusted signature!
+gpg:          There is no indication that the signature belongs to the owner.
+Primary key fingerprint: 14BC E436 2749 B2B5 1F8C  7122 6C42 9F1D 8D84 F46E
+[GNUPG:] NEWSIG
+[GNUPG:] KEY_CONSIDERED 14BCE4362749B2B51F8C71226C429F1D8D84F46E 0
+[GNUPG:] SIG_ID 6HqwJeXJOR+OpEfmBoq+mjpTQ+4 2025-07-09 1752071983
+[GNUPG:] GOODSIG 6C429F1D8D84F46E Notepad++ <don.h@free.fr>
+[GNUPG:] VALIDSIG 14BCE4362749B2B51F8C71226C429F1D8D84F46E 2025-07-09 1752071983 0 4 0 1 8 00 14BCE4362749B2B51F8C71226C429F1D8D84F46E
+[GNUPG:] TRUST_UNDEFINED 0 pgp
+
+File: npp.8.8.3.checksums.sha256
+Exit code: 0
+gpg: Signature made Wed Jul  9 22:39:46 2025    
+gpg:                using RSA key 14BCE4362749B2B51F8C71226C429F1D8D84F46E
+gpg: Good signature from "Notepad++ <don.h@free.fr>" [unknown]
+gpg: WARNING: This key is not certified with a trusted signature!
+gpg:          There is no indication that the signature belongs to the owner.
+Primary key fingerprint: 14BC E436 2749 B2B5 1F8C  7122 6C42 9F1D 8D84 F46E
+[GNUPG:] NEWSIG
+[GNUPG:] KEY_CONSIDERED 14BCE4362749B2B51F8C71226C429F1D8D84F46E 0
+[GNUPG:] SIG_ID L/qEovfNMNgxpRM6hnqgrbGG4ys 2025-07-09 1752071986
+[GNUPG:] GOODSIG 6C429F1D8D84F46E Notepad++ <don.h@free.fr>
+[GNUPG:] VALIDSIG 14BCE4362749B2B51F8C71226C429F1D8D84F46E 2025-07-09 1752071986 0 4 0 1 8 00 14BCE4362749B2B51F8C71226C429F1D8D84F46E
+[GNUPG:] TRUST_UNDEFINED 0 pgp

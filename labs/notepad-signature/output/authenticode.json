@@ -1,0 +1,23 @@
+{
+  "installer_sha256": "7094a07167648628e47249a16d9d6db922e5aa1255ac4322a2e4900d233372dd",
+  "root_sha1": "C80539FF7076D22E73A01F164108DAFBF06E45E4",
+  "root_subject": "1.2.840.113549.1.9.1=don.h@free.fr,CN=Notepad\\+\\+ Root Certificate,O=Notepad\\+\\+,L=Saint Cloud,ST=Ile-de-France,C=FR",
+  "root_not_before": "2025-07-08T22:53:00+00:00",
+  "root_not_after": "2055-07-08T22:53:00+00:00",
+  "default_store": {
+    "status": "CERTIFICATE_ERROR",
+    "error": "Chain verification from EMAIL=don.h@free.fr, CN=Notepad\\+\\+, O=Notepad\\+\\+, L=Saint Cloud, ST=Ile-de-France, C=FR (serial:75519183144878202311272173362237260241, sha1:7f517e235584afc146f6d3b44cd34c6cc36a3ab2) failed: Unable to build a validation path for the certificate \"Email Address: don.h@free.fr, Common Name: Notepad++, Organization: Notepad++, Locality: Saint Cloud, State/Province: Ile-de-France, Country: FR\" - no issuer matching \"Email Address: don.h@free.fr, Common Name: Notepad++ Root Certificate, Organization: Notepad++, Locality: Saint Cloud, State/Province: Ile-de-France, Country: FR\" was found"
+  },
+  "isolated_store_with_lab_root": {
+    "status": "OK",
+    "error": null
+  },
+  "tampered_first_section": {
+    "status": "INVALID_DIGEST",
+    "error": "The expected hash does not match the digest in the indirect data."
+  },
+  "network_revocation_fetching": false,
+  "revocation_limit": "Offline verification; no current CRL/OCSP evidence supplied",
+  "windows_certificate_store_modified": false,
+  "installer_executed": false
+}
