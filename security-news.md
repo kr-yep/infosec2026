@@ -2,7 +2,7 @@
 
 題目來源：[2026 Fall 資訊安全實務與應用](https://hackmd.io/@chiounan/infosec2026)的 HW1: Security News。
 
-進度：持續更新，目前 2 則；最近紀錄日期為 2026-10-12。
+進度：持續更新，目前 3 則；最近紀錄日期為 2026-10-19。
 
 ## 題目與要求
 
@@ -41,3 +41,18 @@ Google 在 10 月 6 日發布 Chrome 桌面穩定版更新，Windows 與 Mac 更
 ### 學習觀察
 
 大型軟體更新可能一次修補許多不同元件的問題。使用者應留意穩定版更新並盡快安裝；閱讀漏洞公告時，也要區分嚴重度、修補狀態與實際攻擊證據。這則公告提供漏洞嚴重度與更新資訊，但未說明是否已有受害事件。
+
+## 003 Volexity 揭露 Ivanti Connect Secure 零時差攻擊鏈
+
+- 新聞發布日期：2026-10-13
+- 紀錄日期：2026-10-19
+- 作者與發布單位：Charlie Gardner、Sean Koessel、Steven Adair 與 Volexity Volcano Team，Volexity
+- 原始來源：[A Series of Unauthenticated Events: Chained Exploitation of Ivanti Connect Secure Zero-Days](https://www.volexity.com/blog/2026/10/13/a-series-of-unauthenticated-events-chained-exploitation-of-ivanti-connect-secure-zero-days/)
+
+### 新聞摘要
+
+Volexity 表示，攻擊者在 10 月初利用一組漏洞入侵 Ivanti Connect Secure VPN 設備；調查確認，受害設備當時已更新至 22.8R2.4。攻擊鏈結合認證繞過、遠端程式碼執行與另一項權限提升漏洞，取得未經認證的 root 權限；其中認證繞過與遠端程式碼執行漏洞合併列為 CVE-2026-104935。Volexity 說明，攻擊者曾搜尋並外傳 Active Directory 資料，也利用記憶體修改和清除記錄隱藏活動。Ivanti 於 10 月 13 日釋出 CVE-2026-104935 的修補程式；Volexity 發文時，另一項權限提升漏洞仍待修補。報告也指出，因攻擊者會還原記憶體與設定變更，Ivanti Integrity Checker 可能無法單獨確認設備是否遭入侵。
+
+### 學習觀察
+
+套用已知漏洞的修補程式後，仍要確認攻擊鏈是否包含其他漏洞。這起事件也顯示，檔案完整性檢查可能看不到只在記憶體中發生並被還原的變更；調查時還需檢視網路、記憶體與系統記錄。這是根據 Volexity 調查報告整理的觀察。
