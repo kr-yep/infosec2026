@@ -2,7 +2,7 @@
 
 題目來源：[2026 Fall 資訊安全實務與應用](https://hackmd.io/@chiounan/infosec2026)的 HW1: Security News。
 
-進度：持續更新，目前 3 則；最近紀錄日期為 2026-10-19。
+進度：持續更新，目前 4 則；最近紀錄日期為 2026-10-26。
 
 ## 題目與要求
 
@@ -56,3 +56,18 @@ Volexity 表示，攻擊者在 10 月初利用一組漏洞入侵 Ivanti Connect 
 ### 學習觀察
 
 套用已知漏洞的修補程式後，仍要確認攻擊鏈是否包含其他漏洞。這起事件也顯示，檔案完整性檢查可能看不到只在記憶體中發生並被還原的變更；調查時還需檢視網路、記憶體與系統記錄。這是根據 Volexity 調查報告整理的觀察。
+
+## 004 PHP 提醒 CVE-2026-115560 的罕見 RCE 路徑
+
+- 新聞發布日期：2026-10-23
+- 紀錄日期：2026-10-26
+- 發布單位：PHP Security Team
+- 原始來源：[Informational advisory: Session upload progress](https://www.php.net/archive/2026.php#2026-10-23-1)
+
+### 新聞摘要
+
+PHP Security Team 提醒，`session.upload_progress` 可能涉及一條罕見的遠端程式碼執行路徑，列為 CVE-2026-115560。依公告所述，這需要多個條件同時成立：應用程式先把 `session.serialize_handler` 設為 `php_binary` 或 `php_serialize`，再於執行時以 `ini_set()` 改成 `php` 並呼叫 `session_start()`，同時仍啟用上傳進度功能。PHP 建議在下一次例行修補版發布前設定 `session.upload_progress.enabled=0`；未在執行時切換序列化處理器的應用程式可維持啟用。完整技術公告預計隨下次版本發布。
+
+### 學習觀察
+
+軟體是否受漏洞影響，有時不只看版本，也要檢查應用程式執行時如何改變設定。這則公告描述的風險需要特定設定組合，不能據此推論所有 PHP 網站都能透過相同路徑受到攻擊。
