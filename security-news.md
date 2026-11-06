@@ -2,7 +2,7 @@
 
 題目來源：[2026 Fall 資訊安全實務與應用](https://hackmd.io/@chiounan/infosec2026)的 HW1: Security News。
 
-進度：持續更新，目前 4 則；最近紀錄日期為 2026-10-26。
+進度：持續更新，目前 5 則；最近紀錄日期為 2026-11-06。
 
 ## 題目與要求
 
@@ -71,3 +71,18 @@ PHP Security Team 提醒，`session.upload_progress` 可能涉及一條罕見的
 ### 學習觀察
 
 軟體是否受漏洞影響，有時不只看版本，也要檢查應用程式執行時如何改變設定。這則公告描述的風險需要特定設定組合，不能據此推論所有 PHP 網站都能透過相同路徑受到攻擊。
+
+## 005 Cisco Talos 揭露 VOLTA 竊資程式以 LLM 排定受害者價值
+
+- 新聞發布日期：2026-10-31
+- 紀錄日期：2026-11-06
+- 作者與發布單位：Ryan Fetterman，Cisco Talos
+- 原始來源：[Appraisal by AI: Model-driven victim prioritization in the VOLTA infostealer](https://blog.talosintelligence.com/appraisal-by-ai-model-driven-victim-prioritization-in-the-volta-infostealer/)
+
+### 新聞摘要
+
+Cisco Talos 分析一款會自行刪除的 Windows 竊資程式 VOLTA-AUTODOXER。它竊取瀏覽器密碼、工作階段、付款與加密貨幣錢包等資料，也會利用受害者仍有效的登入工作階段進一步蒐集資訊，再整理成結構化資料交給 LLM，評估受害者可變現的資產並排序。Talos 指出，這個 AI 階段主要替操作者整理情報；程式還會在模型拒答時切換到其他模型。若懷疑遭感染，Talos 建議保留 `%APPDATA%\volta_debug.txt`，因為主程式可能已自行刪除。
+
+### 學習觀察
+
+竊資程式結合 AI，不一定是用來突破防禦；這個案例把 AI 放在竊取之後，協助整理受害者資料並決定優先目標。因此，事故處理除了清除惡意程式，也要保留殘存紀錄、撤銷可能遭竊的工作階段與憑證，並評估哪些帳戶和資料已暴露。這項觀察是依 Talos 報告整理。
