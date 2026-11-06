@@ -13,10 +13,10 @@
 | [HW3 簽署檔案與獨立簽名驗證](hw3/README.md) | 10/6 題目版本：比較兩份簽署檔案與兩份獨立簽名 | 2026-10-06 完成，已於 2026-10-18 寄送 |
 | [GPG 加密、簽署與驗證 Lab](labs/gpg-sign-encrypt/README.md) | 目前講義的加密、簽署與驗證練習 | 四項測試通過，已於 2026-10-18 寄送 |
 | [Notepad++ 簽章與憑證 Lab](labs/notepad-signature/README.md) | 10/12 講義：GPG、SHA-256 與憑證信任比較 | 離線 Windows VM 操作與截圖完成，已於 2026-10-18 寄送 |
-| [Tomcat 自建 CA 與 HTTPS Lab](labs/tomcat-tls/README.md) | 10/19 講義：憑證簽發、Java keystore 與瀏覽器信任 | VM 實測與 16 張截圖完成，尚未寄送 |
-| [SSH 演算法設定 Lab](labs/ssh-algorithms/README.md) | 11/02 講義：演算法相容性、設定修正與掃描 | VM 實測與 3 張截圖完成，尚未寄送 |
+| [Tomcat 自建 CA 與 HTTPS Lab](labs/tomcat-tls/README.md) | 10/19 講義：憑證簽發、Java keystore 與瀏覽器信任 | VM 實測與 16 張截圖完成，已於 2026-11-06 寄送 |
+| [SSH 演算法設定 Lab](labs/ssh-algorithms/README.md) | 11/02 講義：演算法相容性、設定修正與掃描 | VM 實測與 3 張截圖完成，已於 2026-11-06 寄送 |
 
-HW1、HW2、HW3 與先前的 GPG、Notepad++ Lab 已寄送。Tomcat、SSH 兩份新 Lab 已完成，下一步是確認未編號 Lab 的信件主旨後繳交；HW1 繼續在原頁每週更新。
+HW1、HW2、HW3 與先前的 GPG、Notepad++ Lab 已寄送。Tomcat、SSH 兩份新 Lab 也已於 2026-11-06 分別寄送；接下來持續更新 HW1 並確認新作業。
 
 ## 講義版本與本次範圍
 

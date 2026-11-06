@@ -2,7 +2,7 @@
 
 題目來源：[SSH Vulnerability](https://hackmd.io/unmKSqywRNCtXVS2L8nN0A)，課程日期 11/02。
 
-進度：2026-11-06 完成 VM 實測、設定修正與截圖，尚未寄送。講義標為 Lab，未指定 HW4 或 HW5。
+進度：2026-11-06 完成 VM 實測、設定修正與截圖，已於 2026-11-06 寄送。講義標為 Lab，未指定 HW4 或 HW5。
 
 [返回作業總覽](../../README.md)
 

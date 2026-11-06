@@ -2,7 +2,7 @@
 
 題目來源：[Trusted Self-Signed SSL Certificate Configuration for Apache-Tomcat (7.x)](https://hackmd.io/V7VikaDmT928w_vMxDHaWQ)，課程日期 10/19。
 
-進度：2026-10-20 完成 VM 實測與截圖，2026-11-06 整理報告；尚未寄送。講義標為 Lab，未指定 HW4 或 HW5。
+進度：2026-10-20 完成 VM 實測與截圖，2026-11-06 整理報告；已於 2026-11-06 寄送。講義標為 Lab，未指定 HW4 或 HW5。
 
 [返回作業總覽](../../README.md)
 
