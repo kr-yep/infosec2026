@@ -1,0 +1,17 @@
+supported-cipher=0
+supported-mac=0
+supported-kex=0
+supported-key=0
+before-effective=0
+before-service=0
+before-algorithms=0
+check-curve25519-sha256=255
+check-curve25519-sha256@libssh.org=0
+candidate-syntax=0
+after-effective=0
+after-algorithms=0
+strong-handshake=255
+reject-cbc=255
+reject-md5=255
+reject-group1=255
+

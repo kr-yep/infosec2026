@@ -1,0 +1,207 @@
+{
+  "tested_on": "2026-10-20",
+  "packaged_on": "2026-11-06",
+  "scope": "Existing actual VM results, no cryptographic tests rerun for packaging",
+  "acceptance": [
+    "CurrentUser root false/true/false",
+    "Two strict HTTPS endpoints fail/succeed/fail",
+    "Expected curl exit codes60/0/0/51",
+    "OpenSSL verifies chain",
+    "Nmap advertises TLS1.2 and8 configured AES ciphers"
+  ],
+  "redaction": "Only TLS session Master-Key removed from public OpenSSL transcript; full original retained privately",
+  "files": [
+    {
+      "file": "output/acceptance.txt",
+      "sha256": "26d9421067671e9eb129e5ea23408a359610e3596085949e6768b7deb0abad3c"
+    },
+    {
+      "file": "output/cert_fingerprints.txt",
+      "sha256": "456d89be7e04f7cad7fd2d04a796ffe12c61db39c45e1e55f5e5fdd4550598b9"
+    },
+    {
+      "file": "output/client-after.json",
+      "sha256": "d7d35064ac9c2405e9306b51d33aef93b6730ba4656066c1b9ca9c2809a18472"
+    },
+    {
+      "file": "output/client-before.json",
+      "sha256": "f5c0a446461d2e22c2132abedebe7dd6ec1d9a197b6e6c02500c847222ef0e9e"
+    },
+    {
+      "file": "output/client-removed.json",
+      "sha256": "3fbcbb0bde22a0ea14b04d0ba6918476030f0e7b5f25969c331b7f72235a0155"
+    },
+    {
+      "file": "output/curl_baseline_8080.txt",
+      "sha256": "c5ccb463634b0d2f4766cf4a54bb7799a5139c6fc2a6edb1fc46b3f78b4de479"
+    },
+    {
+      "file": "output/curl_ca_dns_success.txt",
+      "sha256": "2cefd32fe362aed9892da0cd8b9c811935ab4fe55264d998644d715d20b81c8d"
+    },
+    {
+      "file": "output/curl_ca_ip_success.txt",
+      "sha256": "031a1bf67ed9750a30fdc38ac61fa01cf556329004bc8ff6a309a32ea12c6f95"
+    },
+    {
+      "file": "output/curl_exit_codes.txt",
+      "sha256": "35433763df23e0036479f425eb5d23b4aac2af0a578df1afeb9de87a4590b581"
+    },
+    {
+      "file": "output/curl_insecure_k_baseline.txt",
+      "sha256": "f969be27dfd11e2bec7275af8aca496a67a6fc3f03cf7c74c0058c81540c2937"
+    },
+    {
+      "file": "output/curl_no_ca_fail.txt",
+      "sha256": "b49d729d2ad97df62efea27e44aad33d29db936036e98090437125b5ce27aa59"
+    },
+    {
+      "file": "output/curl_wronghost_fail.txt",
+      "sha256": "c1d623f6add3d7c5ec48a88aba33113e09fb073e11113f636bc1ebed21707599"
+    },
+    {
+      "file": "output/host-trust-after.json",
+      "sha256": "9317b654962ee88cdc18ce8d5997d185ca4528266014ecaa0752321bc39a065e"
+    },
+    {
+      "file": "output/keytool_jks_list.txt",
+      "sha256": "35551f883032010b6fe1900f32b14bedc88bbfb85a523501fee20eb1006294a0"
+    },
+    {
+      "file": "output/keytool_p12_list.txt",
+      "sha256": "5db91c1fa9dc33866450889292e0a2ec1afafd926668442fed09efe1f62bab27"
+    },
+    {
+      "file": "output/keytool_root_only.txt",
+      "sha256": "fb30e7f9e38704586cf5789e3b276fd46d2ece83a7bb1d7eb26f654414c3226e"
+    },
+    {
+      "file": "output/nmap_ssl_cert.txt",
+      "sha256": "1ea7ea918e12d698ed44a3519f80edcc86f9dd1774be28d74e3ec599c633e1f8"
+    },
+    {
+      "file": "output/nmap_ssl_ciphers.txt",
+      "sha256": "be618ca79897dd29ba4394cb0255b833f4186d8387a695d58ee9eb89c6e3e166"
+    },
+    {
+      "file": "output/nmap_summary.txt",
+      "sha256": "6b9f8ff33b29972173f12c598295843ae4227531f3ecca70aad2d4c215f38154"
+    },
+    {
+      "file": "output/openssl_exit_code.txt",
+      "sha256": "494aba6c1f9fdb02789d42fcbbbe141a93285333349b1ae5eb3f94d6c430ad9d"
+    },
+    {
+      "file": "output/openssl_sclient_handshake.txt",
+      "sha256": "b739c0e174ecaca08236a8c36e8756b31f6303b8c88efd93bdc8eddc5a546c5f"
+    },
+    {
+      "file": "output/rootCA_text.txt",
+      "sha256": "5118b96c8d1086feccbf822a67244cfad6d36d196fde3d9a58d6264c2ffe7910"
+    },
+    {
+      "file": "output/rootCA.pem",
+      "sha256": "96ce42b805264683d82721b54cf36abe231a37605c24e9df52e3f9997969f0a9"
+    },
+    {
+      "file": "output/screenshot-hashes.json",
+      "sha256": "c68fe027291ee73323d4a41cf4398130b5609c6a71f84dbbb7359ea36af26b71"
+    },
+    {
+      "file": "output/tomcat_csr.txt",
+      "sha256": "fd5b78f34ebd8fee76608851490b6a56d99e6ac4e892c4ed05aaf37e9ffaa5f3"
+    },
+    {
+      "file": "output/tomcat_text.txt",
+      "sha256": "a54f8d31dba79830637e278a824965ebb324cacb142e58811045923fd4552035"
+    },
+    {
+      "file": "output/tomcat-connector.json",
+      "sha256": "c89338a1775f47443f13e7629f84fa1f2bfc09c8495b753efb090ac9ad959f75"
+    },
+    {
+      "file": "output/tomcat.crt",
+      "sha256": "ac2217eba2cca618c499802f4b1f94cd3dc0f1cc81c422c8c2124e9e71fce3bc"
+    },
+    {
+      "file": "output/versions.txt",
+      "sha256": "1873920ab3b7131d7118fb2c054ac86ee176758c894a9c89b48a3d5fb940bd76"
+    },
+    {
+      "file": "output/vm-environment.json",
+      "sha256": "abd02fd3fd5c2c714be1f793bcfe0acd20b7669adb674ce92940efec2e83cb4f"
+    },
+    {
+      "file": "scripts/client-check.ps1",
+      "sha256": "2e5e74f07f5ef75208402d80401b06169c928297d68bcdf27cf708b6f2ff2a56"
+    },
+    {
+      "file": "scripts/server-lab.sh",
+      "sha256": "ad0358407df19dad700c1c017e923de151a6903e14972313f746d03053504cc1"
+    },
+    {
+      "file": "screenshots/01-http-before-tls.png",
+      "sha256": "ab56786ae3e707f33f771fbf765261b93caf25a6d9e876c3e9b09bcfb3793103"
+    },
+    {
+      "file": "screenshots/02-https-untrusted.png",
+      "sha256": "1363787339e5e534e1a8aacf89d7c6191b870d12c90fc810aea7a085faa0fb44"
+    },
+    {
+      "file": "screenshots/03-root-untrusted.png",
+      "sha256": "5f2c6a0018da8a898cfaf292f9f4d923864c394b3ace4718d0b5a8b359d0e2f0"
+    },
+    {
+      "file": "screenshots/04-import-current-user.png",
+      "sha256": "80df09ac8f121d050447d9b15ea1772051333eebe868c0c337fc0535be5ea7a7"
+    },
+    {
+      "file": "screenshots/05-import-root-store.png",
+      "sha256": "30c811170cd9234d404920442744b5f83543ba7960af4065ee6eb93c87bf19a6"
+    },
+    {
+      "file": "screenshots/06-import-fingerprint.png",
+      "sha256": "fea25b092db99961076e35ac0d83c82ae829549880ae9eda56ab64962d4aa48f"
+    },
+    {
+      "file": "screenshots/07-import-success.png",
+      "sha256": "9c335f19a45d3adc3904823d4f0e3ca88bef7dda32c87a452116b4d9403953ab"
+    },
+    {
+      "file": "screenshots/08-https-trusted-ip.png",
+      "sha256": "34d3afea69519d7acdc66a25c453dc8d424488621f56298e74563a8682b46360"
+    },
+    {
+      "file": "screenshots/09-browser-connection-secure.png",
+      "sha256": "f4d00b1b1d4bbe61ddb002c53eb2fe636d535d63792ed340bed3eca6229e4989"
+    },
+    {
+      "file": "screenshots/10-server-certificate.png",
+      "sha256": "cd5f3bf2883de00dcec845b4e8ca8b6988cc3db0d13b56fc89ac71a5ddea71fc"
+    },
+    {
+      "file": "screenshots/11-valid-certificate-chain.png",
+      "sha256": "7fa0365c98a14cabc805eafda3934462d924454610f99e30a5d95a0e0f63ad1e"
+    },
+    {
+      "file": "screenshots/12-https-trusted-dns.png",
+      "sha256": "7159e37d23cd8086c92ec5733d9e3dc2c99322582da417ba48e73b5b3c97a9eb"
+    },
+    {
+      "file": "screenshots/13-root-in-certmgr.png",
+      "sha256": "e07fb57bf32d3aef24f8ae97c03fb552e412f24152cb275031fccfbabeb9065c"
+    },
+    {
+      "file": "screenshots/14-remove-fingerprint.png",
+      "sha256": "2d707c5fa0bae9fe032227c09c72985b6d95e15db496245bd36e1899cdad1730"
+    },
+    {
+      "file": "screenshots/15-root-removed.png",
+      "sha256": "df735a145bba6fc393819da0cdb1164e3a118e43ba28b02425b2b2fca4daa9ee"
+    },
+    {
+      "file": "screenshots/16-https-untrusted-after-removal.png",
+      "sha256": "42f09119541804f0694018c2c383c434431be9a76e65a48f62e28747724c2e2e"
+    }
+  ]
+}

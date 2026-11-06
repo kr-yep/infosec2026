@@ -1,0 +1,3 @@
+Unsupported KEX algorithm "curve25519-sha256"
+command-line line 0: Bad SSH2 KexAlgorithms 'curve25519-sha256'.
+

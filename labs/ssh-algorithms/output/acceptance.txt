@@ -1,0 +1,1 @@
+PASS: syntax, active sshd, advertised policy, strong transport handshake, and three excluded algorithm rejections.

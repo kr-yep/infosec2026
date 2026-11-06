@@ -1,0 +1,57 @@
+{
+  "tested_on": "2026-10-20",
+  "packaged_on": "2026-11-06",
+  "hypervisor": "VirtualBox 7.2.20r175154",
+  "server": "CentOS 7.9.2009 / Tomcat 7.0.76 / OpenJDK 8u352",
+  "client": "Windows Server 2022 Standard Evaluation",
+  "server_ip": "10.20.30.10/24",
+  "client_ip": "10.20.30.20/24",
+  "default_gateway": "none",
+  "host_interfaces": "none",
+  "vms": [
+    {
+      "name": "Infosec-Tomcat-TLS-Lab",
+      "uuid": "0f506fb2-2226-4683-9d71-25ee460e7654",
+      "state": "poweroff",
+      "nic1": "intnet",
+      "network": "InfosecTomcat-Internal",
+      "other_networks": [
+        "none",
+        "none",
+        "none",
+        "none",
+        "none",
+        "none",
+        "none"
+      ],
+      "clipboard": "disabled",
+      "drag_and_drop": "disabled",
+      "shared_folder_entries": 0
+    },
+    {
+      "name": "Infosec-Windows-Certificate-Lab",
+      "uuid": "db158d02-86a2-4a99-b1b2-a503f199c076",
+      "state": "poweroff",
+      "nic1": "intnet",
+      "network": "InfosecTomcat-Internal",
+      "other_networks": [
+        "none",
+        "none",
+        "none",
+        "none",
+        "none",
+        "none",
+        "none"
+      ],
+      "clipboard": "disabled",
+      "drag_and_drop": "disabled",
+      "shared_folder_entries": 0
+    }
+  ],
+  "ova_sha256": "a4c36e6637c25310607165e85e8bbf46764c910d51fc7242f7fb8ced65a8067c",
+  "ova_bytes": 1957474816,
+  "hash_scope": "Local acquisition fingerprint, not independently vendor-verified",
+  "original_ova_configuration": "Preconfigured 8443 and JKS preserved privately; fresh lab keys generated after removing only the old TLS Connector and live keystore",
+  "root_removed_after_test": true,
+  "online_revocation_checked": false
+}

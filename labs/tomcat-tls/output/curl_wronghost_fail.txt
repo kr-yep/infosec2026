@@ -1,0 +1,20 @@
+* Added wrong-host.lab:8443:10.20.30.10 to DNS cache
+* About to connect() to wrong-host.lab port 8443 (#0)
+*   Trying 10.20.30.10...
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0* Connected to wrong-host.lab (10.20.30.10) port 8443 (#0)
+* Initializing NSS with certpath: sql:/etc/pki/nssdb
+*   CAfile: /root/infosec-tomcat-lab/public/rootCA.pem
+  CApath: none
+* Server certificate:
+* 	subject: CN=10.20.30.10,OU=TLS,O=Course Lab,L=Taichung,ST=Taiwan,C=TW
+* 	start date: Oct 20 04:15:34 2026 GMT
+* 	expire date: Oct 20 04:15:34 2027 GMT
+* 	common name: 10.20.30.10
+* 	issuer: CN=Course Lab Root CA,OU=TLS,O=Course Lab,L=Taichung,ST=Taiwan,C=TW
+* NSS error -12276 (SSL_ERROR_BAD_CERT_DOMAIN)
+* Unable to communicate securely with peer: requested domain name does not match the server's certificate.
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0
+* Closing connection 0
+curl: (51) Unable to communicate securely with peer: requested domain name does not match the server's certificate.

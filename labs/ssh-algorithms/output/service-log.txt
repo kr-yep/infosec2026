@@ -1,0 +1,13 @@
+-- Logs begin at Fri 2026-11-06 22:48:13 CST, end at Fri 2026-11-06 22:50:01 CST. --
+Nov 06 22:48:24 RH70-LVM systemd[1]: Starting OpenSSH server daemon...
+Nov 06 22:48:24 RH70-LVM systemd[1]: PID file /var/run/sshd.pid not readable (yet?) after start.
+Nov 06 22:48:24 RH70-LVM sshd[1160]: Server listening on 0.0.0.0 port 22.
+Nov 06 22:48:24 RH70-LVM sshd[1160]: Server listening on :: port 22.
+Nov 06 22:48:24 RH70-LVM systemd[1]: Started OpenSSH server daemon.
+Nov 06 22:49:38 RH70-LVM systemd[1]: Stopping OpenSSH server daemon...
+Nov 06 22:49:38 RH70-LVM systemd[1]: Starting OpenSSH server daemon...
+Nov 06 22:49:38 RH70-LVM systemd[1]: PID file /var/run/sshd.pid not readable (yet?) after start.
+Nov 06 22:49:38 RH70-LVM sshd[2487]: Server listening on 0.0.0.0 port 22.
+Nov 06 22:49:38 RH70-LVM sshd[2487]: Server listening on :: port 22.
+Nov 06 22:49:38 RH70-LVM systemd[1]: Started OpenSSH server daemon.
+Nov 06 22:49:38 RH70-LVM sshd[2497]: Connection closed by 127.0.0.1 [preauth]

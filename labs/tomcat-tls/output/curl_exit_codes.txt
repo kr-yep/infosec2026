@@ -1,0 +1,5 @@
+=== Curl Exit Code Evaluation ===
+No-CA Exit Code: 60 (expected != 0)
+Explicit-CA IP Exit Code: 0 (expected 0)
+Explicit-CA DNS Exit Code: 0 (expected 0)
+Wrong-Host Exit Code: 51 (expected != 0)

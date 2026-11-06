@@ -1,0 +1,16 @@
+{
+  "SSLEnabled": "true", 
+  "ciphers": "TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA256,TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA,TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA384,TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA,TLS_RSA_WITH_AES_128_CBC_SHA256,TLS_RSA_WITH_AES_128_CBC_SHA,TLS_RSA_WITH_AES_256_CBC_SHA256,TLS_RSA_WITH_AES_256_CBC_SHA", 
+  "clientAuth": "false", 
+  "keyAlias": "tomcat", 
+  "keystoreFile": "/etc/tomcat/keystore.jks", 
+  "keystorePass": "[REDACTED]", 
+  "keystoreType": "JKS", 
+  "maxThreads": "150", 
+  "port": "8443", 
+  "protocol": "org.apache.coyote.http11.Http11NioProtocol", 
+  "scheme": "https", 
+  "secure": "true", 
+  "sslEnabledProtocols": "TLSv1.2", 
+  "sslProtocol": "TLS"
+}

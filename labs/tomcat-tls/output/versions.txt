@@ -1,0 +1,10 @@
+=== Lab Environment Versions ===
+Timestamp: 2026-10-20T04:15:51Z
+Kernel: 3.10.0-1160.80.1.el7.x86_64
+OS: CentOS Linux release 7.9.2009 (Core)
+Tomcat RPM: tomcat-7.0.76-16.el7_9.noarch
+OpenSSL: OpenSSL 1.0.2k-fips  26 Jan 2017
+Java: openjdk version "1.8.0_352"
+OpenJDK Runtime Environment (build 1.8.0_352-b08)
+Curl: curl 7.29.0 (x86_64-redhat-linux-gnu) libcurl/7.29.0 NSS/3.53.1 zlib/1.2.7 libidn/1.28 libssh2/1.8.0
+Nmap: 

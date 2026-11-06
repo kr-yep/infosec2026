@@ -1,0 +1,111 @@
+Keystore type: PKCS12
+Keystore provider: SunJSSE
+
+Your keystore contains 1 entry
+
+Alias name: tomcat
+Creation date: Oct 20, 2026
+Entry type: PrivateKeyEntry
+Certificate chain length: 2
+Certificate[1]:
+Owner: CN=10.20.30.10, OU=TLS, O=Course Lab, L=Taichung, ST=Taiwan, C=TW
+Issuer: CN=Course Lab Root CA, OU=TLS, O=Course Lab, L=Taichung, ST=Taiwan, C=TW
+Serial number: cae73d5c4a81f8d9
+Valid from: Tue Oct 20 12:15:34 CST 2026 until: Wed Oct 20 12:15:34 CST 2027
+Certificate fingerprints:
+	 SHA1: 95:88:B7:69:D2:F8:36:95:45:22:75:87:4F:C9:B0:8A:04:E8:46:14
+	 SHA256: 68:65:0E:0B:EA:18:F2:B7:E7:FC:A7:33:9F:3B:DB:1D:76:42:D1:76:E7:0E:6B:34:7F:4F:48:64:1F:F5:C0:39
+Signature algorithm name: SHA256withRSA
+Subject Public Key Algorithm: 2048-bit RSA key
+Version: 3
+
+Extensions: 
+
+#1: ObjectId: 2.5.29.35 Criticality=false
+AuthorityKeyIdentifier [
+KeyIdentifier [
+0000: F2 52 9A 17 25 E2 FD 61   06 E6 A2 B0 61 34 82 7E  .R..%..a....a4..
+0010: D6 E4 25 4A                                        ..%J
+]
+]
+
+#2: ObjectId: 2.5.29.19 Criticality=false
+BasicConstraints:[
+  CA:false
+  PathLen: undefined
+]
+
+#3: ObjectId: 2.5.29.37 Criticality=false
+ExtendedKeyUsages [
+  serverAuth
+]
+
+#4: ObjectId: 2.5.29.15 Criticality=false
+KeyUsage [
+  DigitalSignature
+  Key_Encipherment
+]
+
+#5: ObjectId: 2.5.29.17 Criticality=false
+SubjectAlternativeName [
+  DNSName: Tomcat-SSL
+  DNSName: tomcat-ssl
+  IPAddress: 10.20.30.10
+]
+
+#6: ObjectId: 2.5.29.14 Criticality=false
+SubjectKeyIdentifier [
+KeyIdentifier [
+0000: 99 5C E4 45 DE 25 5E C2   F8 C3 CA F6 22 4B D3 16  .\.E.%^....."K..
+0010: 53 B9 95 C6                                        S...
+]
+]
+
+Certificate[2]:
+Owner: CN=Course Lab Root CA, OU=TLS, O=Course Lab, L=Taichung, ST=Taiwan, C=TW
+Issuer: CN=Course Lab Root CA, OU=TLS, O=Course Lab, L=Taichung, ST=Taiwan, C=TW
+Serial number: bea1e5b63db3d7f4
+Valid from: Tue Oct 20 12:15:34 CST 2026 until: Fri Oct 17 12:15:34 CST 2036
+Certificate fingerprints:
+	 SHA1: 2E:B5:16:C0:59:E3:91:7B:58:0F:AB:7F:55:63:6D:5F:20:EA:F9:CE
+	 SHA256: 24:36:9E:2D:D6:01:FE:15:53:0B:DD:23:0E:FC:55:09:C4:57:DB:F6:3B:09:EF:C0:7C:20:FF:74:1B:E6:5F:8F
+Signature algorithm name: SHA256withRSA
+Subject Public Key Algorithm: 4096-bit RSA key
+Version: 3
+
+Extensions: 
+
+#1: ObjectId: 2.5.29.35 Criticality=false
+AuthorityKeyIdentifier [
+KeyIdentifier [
+0000: F2 52 9A 17 25 E2 FD 61   06 E6 A2 B0 61 34 82 7E  .R..%..a....a4..
+0010: D6 E4 25 4A                                        ..%J
+]
+]
+
+#2: ObjectId: 2.5.29.19 Criticality=true
+BasicConstraints:[
+  CA:true
+  PathLen:2147483647
+]
+
+#3: ObjectId: 2.5.29.15 Criticality=true
+KeyUsage [
+  Key_CertSign
+  Crl_Sign
+]
+
+#4: ObjectId: 2.5.29.14 Criticality=false
+SubjectKeyIdentifier [
+KeyIdentifier [
+0000: F2 52 9A 17 25 E2 FD 61   06 E6 A2 B0 61 34 82 7E  .R..%..a....a4..
+0010: D6 E4 25 4A                                        ..%J
+]
+]
+
+
+
+*******************************************
+*******************************************
+
+

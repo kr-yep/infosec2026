@@ -1,0 +1,23 @@
+
+Starting Nmap 6.40 ( http://nmap.org ) at 2026-10-20 12:15 CST
+mass_dns: warning: Unable to determine any DNS servers. Reverse DNS is disabled. Try using --system-dns or specify valid servers with --dns-servers
+Nmap scan report for 10.20.30.10
+Host is up (0.00013s latency).
+PORT     STATE SERVICE
+8443/tcp open  https-alt
+| ssl-enum-ciphers: 
+|   TLSv1.2: 
+|     ciphers: 
+|       TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA - strong
+|       TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA256 - strong
+|       TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA - strong
+|       TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA384 - strong
+|       TLS_RSA_WITH_AES_128_CBC_SHA - strong
+|       TLS_RSA_WITH_AES_128_CBC_SHA256 - strong
+|       TLS_RSA_WITH_AES_256_CBC_SHA - strong
+|       TLS_RSA_WITH_AES_256_CBC_SHA256 - strong
+|     compressors: 
+|       NULL
+|_  least strength: strong
+
+Nmap done: 1 IP address (1 host up) scanned in 0.50 seconds

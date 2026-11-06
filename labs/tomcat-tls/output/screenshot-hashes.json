@@ -1,0 +1,82 @@
+[
+  {
+    "file": "01-http-before-tls.png",
+    "sha256": "ab56786ae3e707f33f771fbf765261b93caf25a6d9e876c3e9b09bcfb3793103",
+    "bytes": 98510
+  },
+  {
+    "file": "02-https-untrusted.png",
+    "sha256": "1363787339e5e534e1a8aacf89d7c6191b870d12c90fc810aea7a085faa0fb44",
+    "bytes": 41450
+  },
+  {
+    "file": "03-root-untrusted.png",
+    "sha256": "5f2c6a0018da8a898cfaf292f9f4d923864c394b3ace4718d0b5a8b359d0e2f0",
+    "bytes": 43051
+  },
+  {
+    "file": "04-import-current-user.png",
+    "sha256": "80df09ac8f121d050447d9b15ea1772051333eebe868c0c337fc0535be5ea7a7",
+    "bytes": 40483
+  },
+  {
+    "file": "05-import-root-store.png",
+    "sha256": "30c811170cd9234d404920442744b5f83543ba7960af4065ee6eb93c87bf19a6",
+    "bytes": 39663
+  },
+  {
+    "file": "06-import-fingerprint.png",
+    "sha256": "fea25b092db99961076e35ac0d83c82ae829549880ae9eda56ab64962d4aa48f",
+    "bytes": 52398
+  },
+  {
+    "file": "07-import-success.png",
+    "sha256": "9c335f19a45d3adc3904823d4f0e3ca88bef7dda32c87a452116b4d9403953ab",
+    "bytes": 45622
+  },
+  {
+    "file": "08-https-trusted-ip.png",
+    "sha256": "34d3afea69519d7acdc66a25c453dc8d424488621f56298e74563a8682b46360",
+    "bytes": 100258
+  },
+  {
+    "file": "09-browser-connection-secure.png",
+    "sha256": "f4d00b1b1d4bbe61ddb002c53eb2fe636d535d63792ed340bed3eca6229e4989",
+    "bytes": 91133
+  },
+  {
+    "file": "10-server-certificate.png",
+    "sha256": "cd5f3bf2883de00dcec845b4e8ca8b6988cc3db0d13b56fc89ac71a5ddea71fc",
+    "bytes": 67802
+  },
+  {
+    "file": "11-valid-certificate-chain.png",
+    "sha256": "7fa0365c98a14cabc805eafda3934462d924454610f99e30a5d95a0e0f63ad1e",
+    "bytes": 64616
+  },
+  {
+    "file": "12-https-trusted-dns.png",
+    "sha256": "7159e37d23cd8086c92ec5733d9e3dc2c99322582da417ba48e73b5b3c97a9eb",
+    "bytes": 100376
+  },
+  {
+    "file": "13-root-in-certmgr.png",
+    "sha256": "e07fb57bf32d3aef24f8ae97c03fb552e412f24152cb275031fccfbabeb9065c",
+    "bytes": 96290
+  },
+  {
+    "file": "14-remove-fingerprint.png",
+    "sha256": "2d707c5fa0bae9fe032227c09c72985b6d95e15db496245bd36e1899cdad1730",
+    "bytes": 91208
+  },
+  {
+    "file": "15-root-removed.png",
+    "sha256": "df735a145bba6fc393819da0cdb1164e3a118e43ba28b02425b2b2fca4daa9ee",
+    "bytes": 94423
+  },
+  {
+    "file": "16-https-untrusted-after-removal.png",
+    "sha256": "42f09119541804f0694018c2c383c434431be9a76e65a48f62e28747724c2e2e",
+    "bytes": 41463
+  }
+]

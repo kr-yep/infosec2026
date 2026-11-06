@@ -1,0 +1,45 @@
+Certificate Request:
+    Data:
+        Version: 0 (0x0)
+        Subject: C=TW, ST=Taiwan, L=Taichung, O=Course Lab, OU=TLS, CN=10.20.30.10
+        Subject Public Key Info:
+            Public Key Algorithm: rsaEncryption
+                Public-Key: (2048 bit)
+                Modulus:
+                    00:a4:2c:10:b8:d4:a5:92:3b:2f:e4:21:4b:18:e3:
+                    e1:88:6a:cf:26:f0:00:99:78:f1:98:05:60:2b:bc:
+                    36:16:ee:f4:70:41:46:38:85:e3:73:9a:e5:ed:42:
+                    38:52:a8:ab:53:e3:a5:d9:e0:cb:3f:f6:8b:fc:be:
+                    03:71:c6:8f:80:e8:0e:89:4f:30:20:7a:38:7d:75:
+                    6d:fa:b4:31:02:61:7b:d9:eb:55:de:cb:f7:0f:70:
+                    86:c3:5c:dc:67:06:e2:0f:fb:31:52:2b:48:4c:a9:
+                    e8:88:8a:9a:d4:f0:92:a1:10:82:2f:aa:b7:a8:bf:
+                    45:74:76:70:42:3f:38:b2:3a:8e:90:e6:23:f0:94:
+                    9b:ae:93:3f:eb:0b:06:39:92:45:17:87:11:7b:47:
+                    96:bd:2a:30:98:71:56:f6:a9:a0:c4:f7:5c:85:1d:
+                    8f:99:e6:c5:a8:d4:36:13:44:91:20:88:bc:cc:31:
+                    62:f2:18:72:b4:2c:94:1b:d7:dc:c2:da:f8:c3:80:
+                    70:69:9b:f4:ba:e2:39:d2:45:1f:89:d2:9c:e9:cc:
+                    a5:59:4f:43:ee:dc:2a:40:71:2c:65:0e:36:b9:ce:
+                    43:e5:46:c0:8e:ee:1b:22:51:57:b2:33:6f:d4:9a:
+                    bf:44:99:6c:d4:37:cc:61:0a:5d:3b:e0:a7:c8:99:
+                    0c:cd
+                Exponent: 65537 (0x10001)
+        Attributes:
+            a0:00
+    Signature Algorithm: sha256WithRSAEncryption
+         58:2a:53:af:73:c4:8f:87:cb:32:c0:b3:dd:f6:c9:36:0b:da:
+         24:ec:d4:38:2d:fa:c5:e1:56:88:d5:78:b6:f9:7c:4e:36:13:
+         86:c3:af:a3:d9:13:a7:87:34:96:62:c4:d4:65:06:30:c7:a8:
+         0e:67:2e:9b:93:19:eb:0d:87:71:35:e8:8a:98:92:e1:6b:13:
+         69:31:38:39:f1:a5:e6:3d:b3:c9:be:6f:0b:b9:2f:e5:02:89:
+         62:37:b4:2e:15:ad:88:9f:42:e2:9d:84:1a:72:f2:c0:00:39:
+         45:a7:f6:be:2b:42:0a:52:65:01:3e:b5:28:bd:05:bb:53:02:
+         5b:78:da:e6:dc:3e:6d:aa:78:33:f8:2b:b3:6e:dc:90:7c:38:
+         74:1d:59:1c:98:d4:e6:eb:3a:c7:ad:55:be:08:ce:b2:1b:32:
+         d1:8f:4b:5c:8a:32:03:31:9a:77:1a:d2:c6:e3:ef:bd:63:57:
+         77:9a:16:eb:3d:9c:43:64:1d:62:a3:dc:ce:41:63:a1:a5:81:
+         00:30:49:f0:6a:02:98:b1:8e:ad:a5:bc:f7:99:13:61:34:75:
+         e7:c4:64:8d:85:08:14:50:c1:b7:74:59:ae:3b:02:ce:be:a9:
+         b6:65:bb:5a:8d:b2:7e:b7:2c:f5:a9:f1:42:0a:a2:b9:2d:e6:
+         d8:33:2b:66

@@ -1,0 +1,44 @@
+﻿{
+    "Action":  "Before",
+    "TimestampUtc":  "2026-10-20T04:16:29.1106196Z",
+    "Hostname":  "CERTLAB",
+    "CurrentUser":  "lab",
+    "Model":  "VirtualBox",
+    "ExpectedThumbprint":  "2EB516C059E3917B580FAB7F55636D5F20EAF9CE",
+    "CurrentUserRoot":  {
+                            "StorePath":  "Cert:\\CurrentUser\\Root",
+                            "Present":  false,
+                            "Matches":  [
+
+                                        ]
+                        },
+    "LocalMachineRoot":  {
+                             "StorePath":  "Cert:\\LocalMachine\\Root",
+                             "Present":  false,
+                             "Matches":  [
+
+                                         ]
+                         },
+    "EndpointTlsTests":  [
+                             {
+                                 "Url":  "https://10.20.30.10:8443/",
+                                 "TimestampUtc":  "2026-10-20T04:16:28.8811276Z",
+                                 "Success":  false,
+                                 "StatusCode":  null,
+                                 "StatusDescription":  null,
+                                 "ErrorType":  "System.Net.WebException",
+                                 "ErrorMessage":  "The underlying connection was closed: Could not establish trust relationship for the SSL/TLS secure channel.",
+                                 "InnerError":  "The remote certificate is invalid according to the validation procedure."
+                             },
+                             {
+                                 "Url":  "https://Tomcat-SSL:8443/",
+                                 "TimestampUtc":  "2026-10-20T04:16:29.0722247Z",
+                                 "Success":  false,
+                                 "StatusCode":  null,
+                                 "StatusDescription":  null,
+                                 "ErrorType":  "System.Net.WebException",
+                                 "ErrorMessage":  "The underlying connection was closed: Could not establish trust relationship for the SSL/TLS secure channel.",
+                                 "InnerError":  "The remote certificate is invalid according to the validation procedure."
+                             }
+                         ]
+}

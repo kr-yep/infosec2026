@@ -1,0 +1,2 @@
+38e8644b128e4275a30ec3236738976623d4f47d2deb838d7a3357c68fd0e2e4  /etc/ssh/sshd_config
+88f01ab16ce6ed7a3a06face4e304fcd52c3a007c7fd160b96bf980d6bae38e6  /mnt/ssh-lab/ssh-lab.sh

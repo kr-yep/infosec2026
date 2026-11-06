@@ -1,0 +1,17 @@
+
+Starting Nmap 6.40 ( http://nmap.org ) at 2026-10-20 12:15 CST
+mass_dns: warning: Unable to determine any DNS servers. Reverse DNS is disabled. Try using --system-dns or specify valid servers with --dns-servers
+Nmap scan report for 10.20.30.10
+Host is up (0.00013s latency).
+PORT     STATE SERVICE
+8443/tcp open  https-alt
+| ssl-cert: Subject: commonName=10.20.30.10/organizationName=Course Lab/stateOrProvinceName=Taiwan/countryName=TW
+| Issuer: commonName=Course Lab Root CA/organizationName=Course Lab/stateOrProvinceName=Taiwan/countryName=TW
+| Public Key type: rsa
+| Public Key bits: 2048
+| Not valid before: 2026-10-20T04:15:34+00:00
+| Not valid after:  2027-10-20T04:15:34+00:00
+| MD5:   0363 7df3 ac43 33c0 ffa5 6b2e 6a8f 41e8
+|_SHA-1: 9588 b769 d2f8 3695 4522 7587 4fc9 b08a 04e8 4614
+
+Nmap done: 1 IP address (1 host up) scanned in 0.31 seconds

@@ -1,0 +1,124 @@
+{
+  "tested_on": "2026-11-06",
+  "guest_config_sha256": "38e8644b128e4275a30ec3236738976623d4f47d2deb838d7a3357c68fd0e2e4",
+  "initial_script_sha256": "88f01ab16ce6ed7a3a06face4e304fcd52c3a007c7fd160b96bf980d6bae38e6",
+  "published_script_sha256": "124527ca47df8db352d9768b7e9a04370b286d9ed3e27a06e1623e258b83d188",
+  "qualification_note": "Final matcher did not recognize legacy message Unable to negotiate a key exchange method; configured service and preceding tests had succeeded",
+  "correction_scope": "Extended only the message predicate; validated it against original guest rejection and collected remaining logs/hashes, without reapplying configuration",
+  "corrected_remaining_steps_exit": 0,
+  "transcript_processing": "Normalized serial transcript line endings; no fabricated command output",
+  "files": [
+    {
+      "file": "output/acceptance.txt",
+      "sha256": "f4e299de05a5e05ce3c17e32f85f078291af09009074d09817c450c7102bd055"
+    },
+    {
+      "file": "output/after-algorithms.txt",
+      "sha256": "3c3b3cc0a8a3206c50cdbd33104e4f96d380888f8d4339a722910c990d6c5608"
+    },
+    {
+      "file": "output/after-effective.txt",
+      "sha256": "5fa1c0c783f920f81a1a4c3dd6b797b98633fc7178cd3a1d7087ce715b4df623"
+    },
+    {
+      "file": "output/applied-policy.txt",
+      "sha256": "5c6412b63fd9aef6c31afa4b8e536323806739bcee8b7c503683a2bad6bee196"
+    },
+    {
+      "file": "output/before-algorithms.txt",
+      "sha256": "4aab105c0df8be165505f145e652a8eabb2c965ca9c27063c1baec7bc1ac4120"
+    },
+    {
+      "file": "output/before-effective.txt",
+      "sha256": "1f9e2e530d444c8f99a7b796880108c948254d9d7b35caccb877387173a331eb"
+    },
+    {
+      "file": "output/before-service.txt",
+      "sha256": "9621095dd27023f1f06e1dd6a1ef6a90c2ffeb159ad1fd164e3e4c8de6442a3c"
+    },
+    {
+      "file": "output/candidate-syntax.txt",
+      "sha256": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b"
+    },
+    {
+      "file": "output/check-curve25519-sha256.txt",
+      "sha256": "e6be0f8a6a2c4739edb7deeb73cd24beecf1ad4292555be0bdd5012f38e871df"
+    },
+    {
+      "file": "output/check-curve25519-sha256@libssh.org.txt",
+      "sha256": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b"
+    },
+    {
+      "file": "output/environment.txt",
+      "sha256": "a7a858b63dfe8e5a52ca2a46d32689a22daba5aa725af84edb18460ca28e182d"
+    },
+    {
+      "file": "output/exit-codes.txt",
+      "sha256": "448542739fbe86d8bbe9b86c1b5462256cd9d0116d93bd7522e071049dacc3d8"
+    },
+    {
+      "file": "output/guest-hashes.txt",
+      "sha256": "b2f5f8b635105ae63fc3d1807a7dea2bd6d48571e1d0a34d10ad1a6444948ed9"
+    },
+    {
+      "file": "output/reject-cbc.txt",
+      "sha256": "b4a03cc7a865c9070e75244f5fb42341504eff9a60c7f125d660e79b1a4a91d1"
+    },
+    {
+      "file": "output/reject-group1.txt",
+      "sha256": "3b6cf9046e4bf70c633db65733344ad00076ee144ba261a82ccfcbe41db6682d"
+    },
+    {
+      "file": "output/reject-md5.txt",
+      "sha256": "09e6fa0503a742e7ba56164530dcf572fa4de097167df3c5d20426b51987c228"
+    },
+    {
+      "file": "output/service-log.txt",
+      "sha256": "7d838d5ed72376dc846eee68b992b7d7226644ec32e4f833a23f0b586887bb62"
+    },
+    {
+      "file": "output/service-state.txt",
+      "sha256": "85da6a8fcdac4f42a2a971afec1648baee45aa64f17a8b0065829e853e5d7423"
+    },
+    {
+      "file": "output/strong-handshake.txt",
+      "sha256": "417293446f65571251421a81eeaf5757132220291b363185144fb2a584427720"
+    },
+    {
+      "file": "output/supported-cipher.txt",
+      "sha256": "c4fecc5ac1dc07362a4d7249b3c95655467db501c7ef97665efa4d10061fa513"
+    },
+    {
+      "file": "output/supported-kex.txt",
+      "sha256": "26586af0dced3e175030b5f4829fb6a9457bc5067cd715edc7c539cf0d72094a"
+    },
+    {
+      "file": "output/supported-key.txt",
+      "sha256": "d6977e7ab22ce8068af8e0631a44f951dca381e9e9843310656c4d768b9b0722"
+    },
+    {
+      "file": "output/supported-mac.txt",
+      "sha256": "9263cde623dbec278b9e2520b7806a2582421adbaf2afe8670aaeec32e420be6"
+    },
+    {
+      "file": "output/vm-environment.json",
+      "sha256": "66e67d8822bb626976cb59f5ddb58c6b252013eb8cc6095d06eeb1d2d9035cce"
+    },
+    {
+      "file": "screenshots/01-version-and-kex-check.png",
+      "sha256": "0d96813f950c4a8d8fa53974ff86a2d171adc0d88c5695e6afa378ceb63034af"
+    },
+    {
+      "file": "screenshots/02-advertised-algorithms-after.png",
+      "sha256": "242abb9b3b32666c288ae60c0ba99df496df5cd4787a14d1fdf7d6a05e34fc61"
+    },
+    {
+      "file": "screenshots/03-transport-and-negative-cases.png",
+      "sha256": "69e23aecce948a5b55b1c33bd9b8447b5c6ec55fed2b7bb7b4ade2616f6be2b0"
+    },
+    {
+      "file": "scripts/ssh-lab.sh",
+      "sha256": "124527ca47df8db352d9768b7e9a04370b286d9ed3e27a06e1623e258b83d188"
+    }
+  ]
+}

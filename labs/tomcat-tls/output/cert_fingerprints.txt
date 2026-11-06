@@ -1,0 +1,3 @@
+=== Certificate Fingerprints (SHA-256) ===
+rootCA.pem: SHA256 Fingerprint=24:36:9E:2D:D6:01:FE:15:53:0B:DD:23:0E:FC:55:09:C4:57:DB:F6:3B:09:EF:C0:7C:20:FF:74:1B:E6:5F:8F
+tomcat.crt: SHA256 Fingerprint=68:65:0E:0B:EA:18:F2:B7:E7:FC:A7:33:9F:3B:DB:1D:76:42:D1:76:E7:0E:6B:34:7F:4F:48:64:1F:F5:C0:39

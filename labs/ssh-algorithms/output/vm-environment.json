@@ -1,0 +1,16 @@
+{
+  "tested_on": "2026-11-06",
+  "vm_name": "Infosec-RH70-SSH-Lab",
+  "uuid": "9ddeb102-aa43-4118-b5ba-99c5ff7f58ed",
+  "state": "poweroff",
+  "network_adapters": "all disabled",
+  "guest_target": "127.0.0.1 only",
+  "clipboard": "disabled",
+  "drag_and_drop": "disabled",
+  "shared_folder_entries": 0,
+  "input_transfer": "Read-only ISO containing only the lab script",
+  "output_transfer": "Virtual serial port writing to one host log file",
+  "ova_bytes": 1545282048,
+  "ova_sha256": "2095b3c993a79eed5f3a31bec21f5c97de2946e038f7e246379e33a451b0e79d",
+  "hash_scope": "Local acquisition hash, no separate vendor manifest"
+}

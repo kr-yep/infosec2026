@@ -1,0 +1,33 @@
+* About to connect() to 10.20.30.10 port 8443 (#0)
+*   Trying 10.20.30.10...
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0* Connected to 10.20.30.10 (10.20.30.10) port 8443 (#0)
+* Initializing NSS with certpath: sql:/etc/pki/nssdb
+* skipping SSL peer certificate verification
+* SSL connection using TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA
+* Server certificate:
+* 	subject: CN=10.20.30.10,OU=TLS,O=Course Lab,L=Taichung,ST=Taiwan,C=TW
+* 	start date: Oct 20 04:15:34 2026 GMT
+* 	expire date: Oct 20 04:15:34 2027 GMT
+* 	common name: 10.20.30.10
+* 	issuer: CN=Course Lab Root CA,OU=TLS,O=Course Lab,L=Taichung,ST=Taiwan,C=TW
+> HEAD / HTTP/1.1
+> User-Agent: curl/7.29.0
+> Host: 10.20.30.10:8443
+> Accept: */*
+> 
+< HTTP/1.1 200 OK
+< Server: Apache-Coyote/1.1
+< Content-Type: text/html;charset=ISO-8859-1
+< Transfer-Encoding: chunked
+< Date: Tue, 20 Oct 2026 04:15:56 GMT
+< 
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0
+* Connection #0 to host 10.20.30.10 left intact
+HTTP/1.1 200 OK
+Server: Apache-Coyote/1.1
+Content-Type: text/html;charset=ISO-8859-1
+Transfer-Encoding: chunked
+Date: Tue, 20 Oct 2026 04:15:56 GMT
+

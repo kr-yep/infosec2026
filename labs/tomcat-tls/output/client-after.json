@@ -1,0 +1,52 @@
+﻿{
+    "Action":  "After",
+    "TimestampUtc":  "2026-10-20T04:18:04.7303309Z",
+    "Hostname":  "CERTLAB",
+    "CurrentUser":  "lab",
+    "Model":  "VirtualBox",
+    "ExpectedThumbprint":  "2EB516C059E3917B580FAB7F55636D5F20EAF9CE",
+    "CurrentUserRoot":  {
+                            "StorePath":  "Cert:\\CurrentUser\\Root",
+                            "Present":  true,
+                            "Matches":  [
+                                            {
+                                                "Subject":  "CN=Course Lab Root CA, OU=TLS, O=Course Lab, L=Taichung, S=Taiwan, C=TW",
+                                                "Issuer":  "CN=Course Lab Root CA, OU=TLS, O=Course Lab, L=Taichung, S=Taiwan, C=TW",
+                                                "Thumbprint":  "2EB516C059E3917B580FAB7F55636D5F20EAF9CE",
+                                                "Thumbprint256":  "24369E2DD601FE15530BDD230EFC5509C457DBF63B09EFC07C20FF741BE65F8F",
+                                                "NotBefore":  "2026-10-20T12:15:34.0000000+08:00",
+                                                "NotAfter":  "2036-10-17T12:15:34.0000000+08:00",
+                                                "SerialNumber":  "00BEA1E5B63DB3D7F4"
+                                            }
+                                        ]
+                        },
+    "LocalMachineRoot":  {
+                             "StorePath":  "Cert:\\LocalMachine\\Root",
+                             "Present":  false,
+                             "Matches":  [
+
+                                         ]
+                         },
+    "EndpointTlsTests":  [
+                             {
+                                 "Url":  "https://10.20.30.10:8443/",
+                                 "TimestampUtc":  "2026-10-20T04:18:04.5842666Z",
+                                 "Success":  true,
+                                 "StatusCode":  200,
+                                 "StatusDescription":  "OK",
+                                 "ErrorType":  null,
+                                 "ErrorMessage":  null,
+                                 "InnerError":  null
+                             },
+                             {
+                                 "Url":  "https://Tomcat-SSL:8443/",
+                                 "TimestampUtc":  "2026-10-20T04:18:04.6760389Z",
+                                 "Success":  true,
+                                 "StatusCode":  200,
+                                 "StatusDescription":  "OK",
+                                 "ErrorType":  null,
+                                 "ErrorMessage":  null,
+                                 "InnerError":  null
+                             }
+                         ]
+}

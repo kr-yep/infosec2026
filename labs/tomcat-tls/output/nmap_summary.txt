@@ -1,0 +1,3 @@
+=== Nmap Verification Summary ===
+nmap_ssl_cert_exit_code=0
+nmap_ssl_ciphers_exit_code=0
