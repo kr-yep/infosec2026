@@ -2,7 +2,7 @@
 
 題目來源：[2026 Fall 資訊安全實務與應用](https://hackmd.io/@chiounan/infosec2026)的 HW1: Security News。
 
-進度：持續更新，目前 5 則；最近紀錄日期為 2026-11-06。
+進度：持續更新，目前 6 則；最近紀錄日期為 2026-11-09。
 
 ## 題目與要求
 
@@ -86,3 +86,18 @@ Cisco Talos 分析一款會自行刪除的 Windows 竊資程式 VOLTA-AUTODOXER�
 ### 學習觀察
 
 竊資程式結合 AI，不一定是用來突破防禦；這個案例把 AI 放在竊取之後，協助整理受害者資料並決定優先目標。因此，事故處理除了清除惡意程式，也要保留殘存紀錄、撤銷可能遭竊的工作階段與憑證，並評估哪些帳戶和資料已暴露。這項觀察是依 Talos 報告整理。
+
+## 006 SonicWall 修補可繞過 SAML 與 MFA 的 SSL-VPN 漏洞
+
+- 新聞發布日期：2026-11-06
+- 紀錄日期：2026-11-09
+- 發布單位：SonicWall Product Security Incident Response Team
+- 原始來源：[SonicWall PSIRT Security Advisory SNWLID-2026-0014](https://psirt.global.sonicwall.com/vuln-detail/SNWLID-2026-0014)；核對：[Canadian Centre for Cyber Security 公告](https://www.cyber.gc.ca/en/alerts-advisories/sonicwall-security-advisory-av26-1133)、[卡達國家網路安全局公告](https://www.ncsa.gov.qa/en/media/cybersecurity-advisories/566504)
+
+### 新聞摘要
+
+SonicWall 公布 SonicOS SSL-VPN 的驗證繞過漏洞 CVE-2026-19868。若 SSL-VPN 使用 SAML 登入，持有其他驗證方式有效帳密的使用者可能繞過 SAML 控制，連帶避開由 SAML 強制執行的多因素驗證（MFA）。SonicWall 表示已調查可能遭利用的通報；加拿大網路安全中心記錄此漏洞已遭利用，且指出 CISA 於 11 月 6 日將其列入已知遭利用漏洞（KEV）目錄。此問題只影響啟用 SAML 的 SSL-VPN 登入情境。
+
+### 學習觀察
+
+啟用 MFA 不代表每一條登入路徑都受到同等保護；若同一服務仍接受可繞過 SAML 的其他帳密，整體登入安全仍可能被較弱的路徑限制。檢查遠端存取時，除了確認 MFA 狀態，也應盤點是否存在其他驗證方式。這是根據廠商公告與政府資安單位公告整理的觀察。
