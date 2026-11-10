@@ -4,6 +4,8 @@
 
 進度：2026-11-06 完成 VM 實測、設定修正與截圖，已於 2026-11-06 寄送。講義標為 Lab，未指定 HW4 或 HW5。
 
+講義版本：本次實測依 2026-11-06 讀取的內容進行。2026-11-10 再次核對時，講義已移除 KEX 範例中的兩個 Curve25519 名稱，剩下的四項與本報告實際套用的 KEX 設定相同。下文保留原版本的問題與測試結果，未重新執行實驗。
+
 [返回作業總覽](../../README.md)
 
 ## 題目與環境
@@ -18,7 +20,7 @@
 
 1. 在 VM 查詢 `ssh -Q cipher`、`ssh -Q mac`、`ssh -Q kex`、`ssh -Q key`，保留本機程式支援的完整清單。
 2. 執行 `sshd -T`、`nmap -sV 127.0.0.1` 與 `nmap -Pn -p22 --script ssh2-enum-algos 127.0.0.1`，記錄修改前的有效設定與伺服器提供的演算法。
-3. 保留原始 `sshd_config`。先以 `sshd -t -f 原設定 -o KexAlgorithms=演算法名稱`，個別測試講義中的兩個 Curve25519 名稱；這項測試不會改動正在運行的服務。
+3. 保留原始 `sshd_config`。先以 `sshd -t -f 原設定 -o KexAlgorithms=演算法名稱`，個別測試 11/06 版講義中的兩個 Curve25519 名稱；這項測試不會改動正在運行的服務。
 4. 產生候選設定，先通過 `sshd -t` 才套用並重啟 `sshd`。本次三項設定如下：
 
 ```text
@@ -34,7 +36,7 @@ KexAlgorithms ecdh-sha2-nistp256,ecdh-sha2-nistp384,ecdh-sha2-nistp521,diffie-he
 
 ## 找到的問題
 
-**演算法名稱必須符合實際版本。** 這台 VM 對 `curve25519-sha256` 回報 `Unsupported KEX algorithm`，設定檢查回傳 `255`；對 `curve25519-sha256@libssh.org` 則接受，回傳 `0`。因此不能把講義的整行 KEX 原樣套入，也不能說這個版本完全不支援 Curve25519。實測見[不支援的名稱](output/check-curve25519-sha256.txt)、[完整回傳碼](output/exit-codes.txt)及[支援清單](output/supported-kex.txt)。OpenSSH 的[6.5 版本說明](https://www.openssh.org/txt/release-6.5)也記錄了 Curve25519 與 Ed25519 的加入。
+**演算法名稱必須符合實際版本。** 這台 VM 對 `curve25519-sha256` 回報 `Unsupported KEX algorithm`，設定檢查回傳 `255`；對 `curve25519-sha256@libssh.org` 則接受，回傳 `0`。因此不能把 11/06 版講義的整行 KEX 原樣套入，也不能說這個版本完全不支援 Curve25519。實測見[不支援的名稱](output/check-curve25519-sha256.txt)、[完整回傳碼](output/exit-codes.txt)及[支援清單](output/supported-kex.txt)。OpenSSH 的[6.5 版本說明](https://www.openssh.org/txt/release-6.5)也記錄了 Curve25519 與 Ed25519 的加入。
 
 **移除 CBC 後仍須檢查其餘項目。** 講義的 Ciphers 範例保留 `arcfour256`、`arcfour128`。本次改成這台 VM 支援的 AES-CTR／AES-GCM 清單；OpenSSH 後續的[7.6 版本說明](https://www.openssh.org/txt/release-7.6)已列出移除 arcfour 支援。
 
